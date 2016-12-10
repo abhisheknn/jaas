@@ -1,20 +1,20 @@
 # jaas
 
 
-Jaas 02:
+#Jaas 02:
 
 Comment System.setProperty("java.security.auth.login.config","jaas.config");
 -Djava.security.auth.login.config=file:filpath
 
-Jass 03 :
+#Jass 03 :
 comment System.setProperty("java.security.auth.login.config","jaas.config");
 Go to your projects ..JRE/lib/security/
 Open java.SECURITY file
 search for login.config.url.1= path to jaas config file
 
 
-Jaas Web App :
-Authentication and Authorization using mysql in JBOSS Web App
+#Jaas Web App :
+#Authentication and Authorization using mysql in JBOSS Web App
 
 
 CREATE DATABASE JaasUserAndRoles;
@@ -34,7 +34,7 @@ CONSTRAINT users_roles_fk1 FOREIGN KEY (username) REFERENCES users (username),
 CONSTRAINT users_roles_fk2 FOREIGN KEY (rolename) REFERENCES roles (rolename)
 );
 
-#Insert sample User and Role
+Insert sample User and Role
 INSERT INTO `users` (`username`, `password`) VALUES ('abhi', 'nn');
 INSERT INTO `roles` (`rolename`) VALUES ('admin');
 INSERT INTO `users_roles` (`username`, `rolename`) VALUES ('abhi', 'admin');
