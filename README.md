@@ -34,3 +34,8 @@ CONSTRAINT users_roles_fk1 FOREIGN KEY (username) REFERENCES users (username),
 CONSTRAINT users_roles_fk2 FOREIGN KEY (rolename) REFERENCES roles (rolename)
 );
 
+#Insert sample User and Role
+INSERT INTO `users` (`username`, `password`) VALUES ('abhi', 'nn');
+INSERT INTO `roles` (`rolename`) VALUES ('admin');
+INSERT INTO `users_roles` (`username`, `rolename`) VALUES ('abhi', 'admin');
+COMMIT;
