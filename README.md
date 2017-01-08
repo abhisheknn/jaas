@@ -99,3 +99,9 @@ You can test the above configuration from Admin console for wildfly.
 	login with created user .
 	Click on Datasources, If everything is configured propery you will be able to see mysql datasource in  datasources    `     listing.
 	Select your data source , navigate to Connection tab , click Test Connection. 
+
+
+
+
+
+cp ConnectEd/target/ConnectEd.war /home/orion/sd/jaas/wildfly-8.2.1.Final/standalone/deployments/ConnectEd.war
