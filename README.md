@@ -104,4 +104,8 @@ You can test the above configuration from Admin console for wildfly.
 
 
 
-cp ConnectEd/target/ConnectEd.war /home/orion/sd/jaas/wildfly-8.2.1.Final/standalone/deployments/ConnectEd.war
+
+
+
+
+
